@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/manu/CLionProjects/Capstone1/main.cpp
+iostream
+-
+src/util/complex.h
+/home/manu/CLionProjects/Capstone1/src/util/complex.h
+
+/home/manu/CLionProjects/Capstone1/src/util/complex.cpp
+complex.h
+/home/manu/CLionProjects/Capstone1/src/util/complex.h
+
+/home/manu/CLionProjects/Capstone1/src/util/complex.h
+
