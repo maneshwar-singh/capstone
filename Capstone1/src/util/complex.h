@@ -5,6 +5,9 @@
 #ifndef CAPSTONE1_COMPLEX_H
 #define CAPSTONE1_COMPLEX_H
 
+#include<iostream>
+using namespace std;
+
 
 class complex {
 public:

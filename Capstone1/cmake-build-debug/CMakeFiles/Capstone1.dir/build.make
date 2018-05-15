@@ -43,10 +43,10 @@ RM = /home/manu/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manu/CLionProjects/Capstone1
+CMAKE_SOURCE_DIR = /home/manu/CLionProjects/capstone/Capstone1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manu/CLionProjects/Capstone1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Capstone1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Capstone1.dir/flags.make
 
 CMakeFiles/Capstone1.dir/main.cpp.o: CMakeFiles/Capstone1.dir/flags.make
 CMakeFiles/Capstone1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Capstone1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/main.cpp.o -c /home/manu/CLionProjects/Capstone1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Capstone1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/main.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/main.cpp
 
 CMakeFiles/Capstone1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/Capstone1/main.cpp > CMakeFiles/Capstone1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/main.cpp > CMakeFiles/Capstone1.dir/main.cpp.i
 
 CMakeFiles/Capstone1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/Capstone1/main.cpp -o CMakeFiles/Capstone1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/main.cpp -o CMakeFiles/Capstone1.dir/main.cpp.s
 
 CMakeFiles/Capstone1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Capstone1.dir/main.cpp.o.provides.build: CMakeFiles/Capstone1.dir/mai
 
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.o: CMakeFiles/Capstone1.dir/flags.make
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.o: ../src/util/complex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Capstone1.dir/src/util/complex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/util/complex.cpp.o -c /home/manu/CLionProjects/Capstone1/src/util/complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Capstone1.dir/src/util/complex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/util/complex.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/util/complex.cpp
 
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/util/complex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/Capstone1/src/util/complex.cpp > CMakeFiles/Capstone1.dir/src/util/complex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/util/complex.cpp > CMakeFiles/Capstone1.dir/src/util/complex.cpp.i
 
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/util/complex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/Capstone1/src/util/complex.cpp -o CMakeFiles/Capstone1.dir/src/util/complex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/util/complex.cpp -o CMakeFiles/Capstone1.dir/src/util/complex.cpp.s
 
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.o.requires:
 
@@ -105,19 +105,201 @@ CMakeFiles/Capstone1.dir/src/util/complex.cpp.o.provides: CMakeFiles/Capstone1.d
 CMakeFiles/Capstone1.dir/src/util/complex.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/util/complex.cpp.o
 
 
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o: ../src/domain/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/domain/Person.cpp
+
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/domain/Person.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/domain/Person.cpp > CMakeFiles/Capstone1.dir/src/domain/Person.cpp.i
+
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/domain/Person.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/domain/Person.cpp -o CMakeFiles/Capstone1.dir/src/domain/Person.cpp.s
+
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.provides: CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o: ../src/domain/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/domain/Student.cpp
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/domain/Student.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/domain/Student.cpp > CMakeFiles/Capstone1.dir/src/domain/Student.cpp.i
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/domain/Student.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/domain/Student.cpp -o CMakeFiles/Capstone1.dir/src/domain/Student.cpp.s
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.provides: CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o: ../src/domain/Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/domain/Employee.cpp
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/domain/Employee.cpp > CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.i
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/domain/Employee.cpp -o CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.s
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.provides: CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o: ../src/stack/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/stack/Cell.cpp
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/stack/Cell.cpp > CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.i
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/stack/Cell.cpp -o CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.s
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.provides: CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o: ../src/stack/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/stack/Stack.cpp
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/stack/Stack.cpp > CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.i
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/stack/Stack.cpp -o CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.s
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.provides: CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o: ../src/queue/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/queue/Cell.cpp
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/queue/Cell.cpp > CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.i
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/queue/Cell.cpp -o CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.s
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.provides: CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o
+
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o: CMakeFiles/Capstone1.dir/flags.make
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o: ../src/queue/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o -c /home/manu/CLionProjects/capstone/Capstone1/src/queue/Queue.cpp
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manu/CLionProjects/capstone/Capstone1/src/queue/Queue.cpp > CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.i
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manu/CLionProjects/capstone/Capstone1/src/queue/Queue.cpp -o CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.s
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.requires:
+
+.PHONY : CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.requires
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.provides: CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.provides.build
+.PHONY : CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.provides
+
+CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.provides.build: CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o
+
+
 # Object files for target Capstone1
 Capstone1_OBJECTS = \
 "CMakeFiles/Capstone1.dir/main.cpp.o" \
-"CMakeFiles/Capstone1.dir/src/util/complex.cpp.o"
+"CMakeFiles/Capstone1.dir/src/util/complex.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o" \
+"CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o"
 
 # External object files for target Capstone1
 Capstone1_EXTERNAL_OBJECTS =
 
 Capstone1: CMakeFiles/Capstone1.dir/main.cpp.o
 Capstone1: CMakeFiles/Capstone1.dir/src/util/complex.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o
+Capstone1: CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o
 Capstone1: CMakeFiles/Capstone1.dir/build.make
 Capstone1: CMakeFiles/Capstone1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Capstone1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Capstone1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Capstone1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +309,13 @@ CMakeFiles/Capstone1.dir/build: Capstone1
 
 CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/main.cpp.o.requires
 CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/util/complex.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o.requires
+CMakeFiles/Capstone1.dir/requires: CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o.requires
 
 .PHONY : CMakeFiles/Capstone1.dir/requires
 
@@ -135,6 +324,6 @@ CMakeFiles/Capstone1.dir/clean:
 .PHONY : CMakeFiles/Capstone1.dir/clean
 
 CMakeFiles/Capstone1.dir/depend:
-	cd /home/manu/CLionProjects/Capstone1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manu/CLionProjects/Capstone1 /home/manu/CLionProjects/Capstone1 /home/manu/CLionProjects/Capstone1/cmake-build-debug /home/manu/CLionProjects/Capstone1/cmake-build-debug /home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles/Capstone1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manu/CLionProjects/capstone/Capstone1 /home/manu/CLionProjects/capstone/Capstone1 /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles/Capstone1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Capstone1.dir/depend
 

@@ -48,10 +48,10 @@ RM = /home/manu/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manu/CLionProjects/Capstone1
+CMAKE_SOURCE_DIR = /home/manu/CLionProjects/capstone/Capstone1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manu/CLionProjects/Capstone1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles /home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manu/CLionProjects/Capstone1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manu/CLionProjects/capstone/Capstone1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,195 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/domain/Employee.o: src/domain/Employee.cpp.o
+
+.PHONY : src/domain/Employee.o
+
+# target to build an object file
+src/domain/Employee.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.o
+.PHONY : src/domain/Employee.cpp.o
+
+src/domain/Employee.i: src/domain/Employee.cpp.i
+
+.PHONY : src/domain/Employee.i
+
+# target to preprocess a source file
+src/domain/Employee.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.i
+.PHONY : src/domain/Employee.cpp.i
+
+src/domain/Employee.s: src/domain/Employee.cpp.s
+
+.PHONY : src/domain/Employee.s
+
+# target to generate assembly for a file
+src/domain/Employee.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Employee.cpp.s
+.PHONY : src/domain/Employee.cpp.s
+
+src/domain/Person.o: src/domain/Person.cpp.o
+
+.PHONY : src/domain/Person.o
+
+# target to build an object file
+src/domain/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Person.cpp.o
+.PHONY : src/domain/Person.cpp.o
+
+src/domain/Person.i: src/domain/Person.cpp.i
+
+.PHONY : src/domain/Person.i
+
+# target to preprocess a source file
+src/domain/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Person.cpp.i
+.PHONY : src/domain/Person.cpp.i
+
+src/domain/Person.s: src/domain/Person.cpp.s
+
+.PHONY : src/domain/Person.s
+
+# target to generate assembly for a file
+src/domain/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Person.cpp.s
+.PHONY : src/domain/Person.cpp.s
+
+src/domain/Student.o: src/domain/Student.cpp.o
+
+.PHONY : src/domain/Student.o
+
+# target to build an object file
+src/domain/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Student.cpp.o
+.PHONY : src/domain/Student.cpp.o
+
+src/domain/Student.i: src/domain/Student.cpp.i
+
+.PHONY : src/domain/Student.i
+
+# target to preprocess a source file
+src/domain/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Student.cpp.i
+.PHONY : src/domain/Student.cpp.i
+
+src/domain/Student.s: src/domain/Student.cpp.s
+
+.PHONY : src/domain/Student.s
+
+# target to generate assembly for a file
+src/domain/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/domain/Student.cpp.s
+.PHONY : src/domain/Student.cpp.s
+
+src/queue/Cell.o: src/queue/Cell.cpp.o
+
+.PHONY : src/queue/Cell.o
+
+# target to build an object file
+src/queue/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.o
+.PHONY : src/queue/Cell.cpp.o
+
+src/queue/Cell.i: src/queue/Cell.cpp.i
+
+.PHONY : src/queue/Cell.i
+
+# target to preprocess a source file
+src/queue/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.i
+.PHONY : src/queue/Cell.cpp.i
+
+src/queue/Cell.s: src/queue/Cell.cpp.s
+
+.PHONY : src/queue/Cell.s
+
+# target to generate assembly for a file
+src/queue/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Cell.cpp.s
+.PHONY : src/queue/Cell.cpp.s
+
+src/queue/Queue.o: src/queue/Queue.cpp.o
+
+.PHONY : src/queue/Queue.o
+
+# target to build an object file
+src/queue/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.o
+.PHONY : src/queue/Queue.cpp.o
+
+src/queue/Queue.i: src/queue/Queue.cpp.i
+
+.PHONY : src/queue/Queue.i
+
+# target to preprocess a source file
+src/queue/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.i
+.PHONY : src/queue/Queue.cpp.i
+
+src/queue/Queue.s: src/queue/Queue.cpp.s
+
+.PHONY : src/queue/Queue.s
+
+# target to generate assembly for a file
+src/queue/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/queue/Queue.cpp.s
+.PHONY : src/queue/Queue.cpp.s
+
+src/stack/Cell.o: src/stack/Cell.cpp.o
+
+.PHONY : src/stack/Cell.o
+
+# target to build an object file
+src/stack/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.o
+.PHONY : src/stack/Cell.cpp.o
+
+src/stack/Cell.i: src/stack/Cell.cpp.i
+
+.PHONY : src/stack/Cell.i
+
+# target to preprocess a source file
+src/stack/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.i
+.PHONY : src/stack/Cell.cpp.i
+
+src/stack/Cell.s: src/stack/Cell.cpp.s
+
+.PHONY : src/stack/Cell.s
+
+# target to generate assembly for a file
+src/stack/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Cell.cpp.s
+.PHONY : src/stack/Cell.cpp.s
+
+src/stack/Stack.o: src/stack/Stack.cpp.o
+
+.PHONY : src/stack/Stack.o
+
+# target to build an object file
+src/stack/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.o
+.PHONY : src/stack/Stack.cpp.o
+
+src/stack/Stack.i: src/stack/Stack.cpp.i
+
+.PHONY : src/stack/Stack.i
+
+# target to preprocess a source file
+src/stack/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.i
+.PHONY : src/stack/Stack.cpp.i
+
+src/stack/Stack.s: src/stack/Stack.cpp.s
+
+.PHONY : src/stack/Stack.s
+
+# target to generate assembly for a file
+src/stack/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Capstone1.dir/build.make CMakeFiles/Capstone1.dir/src/stack/Stack.cpp.s
+.PHONY : src/stack/Stack.cpp.s
+
 src/util/complex.o: src/util/complex.cpp.o
 
 .PHONY : src/util/complex.o
@@ -189,6 +378,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/domain/Employee.o"
+	@echo "... src/domain/Employee.i"
+	@echo "... src/domain/Employee.s"
+	@echo "... src/domain/Person.o"
+	@echo "... src/domain/Person.i"
+	@echo "... src/domain/Person.s"
+	@echo "... src/domain/Student.o"
+	@echo "... src/domain/Student.i"
+	@echo "... src/domain/Student.s"
+	@echo "... src/queue/Cell.o"
+	@echo "... src/queue/Cell.i"
+	@echo "... src/queue/Cell.s"
+	@echo "... src/queue/Queue.o"
+	@echo "... src/queue/Queue.i"
+	@echo "... src/queue/Queue.s"
+	@echo "... src/stack/Cell.o"
+	@echo "... src/stack/Cell.i"
+	@echo "... src/stack/Cell.s"
+	@echo "... src/stack/Stack.o"
+	@echo "... src/stack/Stack.i"
+	@echo "... src/stack/Stack.s"
 	@echo "... src/util/complex.o"
 	@echo "... src/util/complex.i"
 	@echo "... src/util/complex.s"
